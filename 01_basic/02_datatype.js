@@ -2,10 +2,10 @@
 
 let fullName = "Akil" 
 let age = 18      
-let isFollow = true 
+let isFollow = false 
 let rollNumber      
 let sex = null      // null
-
+// -----premetive-----
 // number => 2 to the power 53
 // string => ""
 // boolean => true / false
@@ -14,4 +14,11 @@ let sex = null      // null
 // Undefined =>
 // null => standalone value
 
-console.table([fullName, rollNumber, age, isFollow, sex])
+// ---- Non premetive datatype ----
+// object
+const student = {
+    fName : "Ashish",
+    roll :"1234" 
+}
+
+console.table([fullName, rollNumber, age, isFollow, sex, student.fName, student["roll"]])
