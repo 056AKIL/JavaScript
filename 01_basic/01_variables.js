@@ -1,7 +1,7 @@
 const accountId = 12344;
 // accountId = 123123 change const value is not allowed !!
 let accountEmail = "akil@gmail.com";
-var accountPassword = "12345"; 
+var accountPassword = "123456"; 
 /*
 Prefer not to use var
 Because of issues in Block scope and functional scope
